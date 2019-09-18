@@ -6,7 +6,7 @@
 
  
 
-<h2>An Ordered HTML Listadousuario</h2>
+<h2>An Ordered HTML Listadeusuario</h2>
 
 <ol>
 <?php
