@@ -51,8 +51,8 @@
      <h1>Ingresar vehiculo</h1>
 
       <form action="hacer_ingreso.php">
-            Patente:<br>
-            <input type="text" name="Patente" value="">
+            Dominio:<br>
+            <input type="text" name="Dominio" value="">
             <br>
             Hora:<br>
             <input type="text" name="Hora" value="">

@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Sticky Footer Navbar Template for Bootstrap</title>
+    <title>Login</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
@@ -37,6 +37,10 @@
               <a class="nav-link disabled" href="#">Inhabilitado</a>
             </li>
           </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
         </div>
       </nav>
     </header>
@@ -47,11 +51,11 @@
     <h1>Login</h1>
   
      <form action="hacer_login.php">
-            Usuario:<br>
-            <input type="text" name="Usuario" value="">
+            Nombre:<br>
+            <input type="text" name="Nombre" value="">
             <br>
-            Clave:<br>
-            <input type="text" name="Clave" value="">
+            Apellido:<br>
+            <input type="text" name="Apellido" value="">
             <br><br>
             <input type="submit" value="Submit">
       </form> 

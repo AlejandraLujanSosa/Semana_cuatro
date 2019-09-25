@@ -37,6 +37,10 @@
               <a class="nav-link disabled" href="#">Inhabilitado</a>
             </li>
           </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
         </div>
       </nav>
     </header>
@@ -45,17 +49,15 @@
     <main role="main" class="container">
       
       <h1>registro</h1>
-      
-              <form action="hacer_registro.php">
-              Dominio:<br>
-              <input type="text" Dominio="Dominio" value="">
-              <br>
-              Hora:<br>
-              <input type="text" Hora="Hora" value="">
-              <br><br>
-            <input type="submit" value="crear Dominio">
-
-      </form> 
+        <form action="hacer_registro.php">
+          Nombre:<br>
+          <input type="text" name="Nombre" value="">
+          <br>
+          Apellido:<br>
+          <input type="text" name="Apellido" value="">
+          <br><br>
+          <input type="submit" value="Submit">
+       </form> 
     </main>
 
     <footer class="footer">
